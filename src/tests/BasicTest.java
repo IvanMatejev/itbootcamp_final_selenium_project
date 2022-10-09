@@ -12,15 +12,25 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
 
-public class BasicTest {
+import pages.CitiesPage;
+import pages.LoginPage;
+import pages.MessagePopUpPage;
+import pages.NavPage;
+import pages.SignupPage;
+
+public abstract class BasicTest {
 	 
 	protected WebDriver driver;
  	protected WebDriverWait wait;
  	protected SoftAssert softAssert;
  	protected Actions actions;
     protected String baseUrl = "https://vue-demo.daniel-avellaneda.com";
-    
-	
+    protected LoginPage loginPage;
+    protected NavPage navPage;
+    protected SignupPage signupPage;
+    protected CitiesPage citiesPage;
+    protected MessagePopUpPage messagePopUpPage;
+  
 	
 	@BeforeClass
 	public void beforeClass() {
@@ -32,6 +42,11 @@ public class BasicTest {
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	    softAssert = new SoftAssert();
 	    actions = new Actions(driver);
+	    loginPage = new LoginPage(driver, wait);
+	    navPage = new NavPage(driver, wait);
+	    signupPage = new SignupPage(driver, wait);
+	    citiesPage = new CitiesPage(driver, wait);
+	    messagePopUpPage = new MessagePopUpPage(driver, wait);
 	}
 	 
     @BeforeMethod

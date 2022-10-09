@@ -22,8 +22,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("error")));
 	}
 	
-	public List<WebElement> getElementsWithTextMessages (){
-		return driver.findElements(By.xpath("//*[contains(@class, 'error')]//ul/li"));
+	public WebElement getElementsWithTextMessages (){
+		return driver.findElement(By.xpath("//*[contains(@class, 'error')]//ul/li"));
 	}
 	
 	public WebElement getCloseBtn () {
