@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T18:11:23 CEST" name="Default suite" finished-at="2022-10-10T18:11:41 CEST" duration-ms="18197">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T18:11:23 CEST" name="Default test" finished-at="2022-10-10T18:11:41 CEST" duration-ms="18197">
+      <class name="tests.SignupTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:23 CEST" name="beforeClass" finished-at="2022-10-10T18:11:26 CEST" duration-ms="3653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:26 CEST" name="beforeMethod" finished-at="2022-10-10T18:11:29 CEST" duration-ms="2319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="visitsTheSignupPage()[pri:1, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:29 CEST" name="visitsTheSignupPage" finished-at="2022-10-10T18:11:29 CEST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitsTheSignupPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:29 CEST" name="afterMethod" finished-at="2022-10-10T18:11:29 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:29 CEST" name="beforeMethod" finished-at="2022-10-10T18:11:30 CEST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checksInputTypes()[pri:2, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:30 CEST" name="checksInputTypes" finished-at="2022-10-10T18:11:31 CEST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksInputTypes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:31 CEST" name="afterMethod" finished-at="2022-10-10T18:11:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:31 CEST" name="beforeMethod" finished-at="2022-10-10T18:11:32 CEST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displaysErrorsWhenUserAlreadyExists()[pri:3, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:32 CEST" name="displaysErrorsWhenUserAlreadyExists" finished-at="2022-10-10T18:11:35 CEST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaysErrorsWhenUserAlreadyExists -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:35 CEST" name="afterMethod" finished-at="2022-10-10T18:11:35 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:35 CEST" name="beforeMethod" finished-at="2022-10-10T18:11:36 CEST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signup()[pri:4, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:36 CEST" name="signup" finished-at="2022-10-10T18:11:41 CEST" duration-ms="4810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:41 CEST" name="afterMethod" finished-at="2022-10-10T18:11:41 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.SignupTests@384ad17b]" started-at="2022-10-10T18:11:41 CEST" name="afterClass" finished-at="2022-10-10T18:11:41 CEST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignupTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

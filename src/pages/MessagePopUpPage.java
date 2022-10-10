@@ -22,8 +22,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("error")));
 	}
 	
+	public void waitForSavedSuccessfulyMsg() {
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()=' Saved successfully ']")));
+	}
+	
 	public WebElement getElementsWithTextMessages (){
 		return driver.findElement(By.xpath("//*[contains(@class, 'error')]//ul/li"));
+	}
+	
+	public WebElement getSavedSuccessfulMsg() {
+		return driver.findElement(By.className("success"));
+	}
+	
+	public void waitForSuccessfullSavedMsg() {
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("success")));
 	}
 	
 	public WebElement getCloseBtn () {

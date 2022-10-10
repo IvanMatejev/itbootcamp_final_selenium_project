@@ -58,5 +58,9 @@ public class CitiesPage {
 		return driver.findElement(By.xpath("//*[contains(@class, 'v-data-table__wrapper')]//tbody/tr["+row+"]//*[@id='delete']"));
 	}
 	
+	public WebElement getInputFromNewItemDialog() {
+		return driver.findElement(By.name("name"));
+	}
+	
 	
 }

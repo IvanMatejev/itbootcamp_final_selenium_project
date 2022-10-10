@@ -71,7 +71,9 @@ public class NavPage {
 		return driver.findElement(By.className("btnCN"));
 	}
 	
-	
+	public WebElement getHeaderFromWelcomePage() {
+		return driver.findElement(By.className("display-2"));
+	}
 	
 	
 	
