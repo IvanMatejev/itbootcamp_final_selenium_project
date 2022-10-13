@@ -1,4 +1,5 @@
 .metadata
+test-output/
 bin/
 tmp/
 *.tmp
